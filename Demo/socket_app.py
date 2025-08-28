@@ -4,7 +4,7 @@ from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 from slack_sdk.web.async_client import AsyncWebClient
 
-from src.LLM_connect.qa_module import extract_ticket_from_text, clarify_if_ambiguous
+from src.LLM_Connect.qa_module import extract_ticket_from_text, clarify_if_ambiguous
 from src.block_kits.block_kit import build_ticket_modal, summary_blocks
 from src.Helpcentral_Tickets.ticket_creation import create_incident, summarize_confirmation
 
